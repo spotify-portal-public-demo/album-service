@@ -34,3 +34,5 @@ spec:
   owner: "group:default/content"
   providesApis:
     - album-service-grpc
+  dependsOn:
+    - resource:album-service-db
