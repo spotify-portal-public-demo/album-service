@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: album-service
-          image: ghcr.io/spotify-portal-public-demo/album-service:main-4b471b39-1746793780 # {"$imagepolicy": "flux-system:album-service"}
+          image: ghcr.io/spotify-portal-public-demo/album-service:main-948097ce-1746804224 # {"$imagepolicy": "flux-system:album-service"}
           imagePullPolicy: Always
           resources:
             requests:
