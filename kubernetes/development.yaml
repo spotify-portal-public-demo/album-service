@@ -14,7 +14,7 @@ spec:
   selector:
     matchLabels:
       app: album-service
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
